@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    background-color: rgb(28, 68, 129);
+    width: 90%;
+    max-width:  1000px;
+    
+    margin: auto;
+    position: relative;
+}
+body{
+    font-family: sans-serif;
+    font-size: 1rem;}
+    /**inicio encabezado**/
+header{
+    width: 100%;
+    background-color: #126f72;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+
+    header #logo{
+        width: 80px;
+        height: 80px;
+        background-color: rgb(74, 25, 151);
+        border-radius: 10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5 rem  }
+        #logo:hover {
+            background-color: rgb(113, 33, 189);
+        }
+        #logo:active{
+            background-color: rgb(65, 65, 238);
+        }
+           header nav{ 
+        width: 50%;
+        height: 80px;
+        background-color: rgb(127, 60, 167);
+        border-radius: 10px ;
+        line-height: 3rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+    nav:hover {
+        background-color: rgb(9, 52, 145);
+    }
+    nav:active{
+        background-color: rgb(114, 114, 245);
+    }
+main{
+    background-color: rgb(139, 62, 139);
+    margin: 0.5rem;
+    border-radius: 10px;
+    width: 70%;
+    padding: 1rem;
+
+}
+main section{
+    background-color: rgb(192, 59, 192);
+    border-radius: 5px;
+    width: 99%;
+    margin: 0.5rem;
+    padding: 1rem;
+    
+}
+main section article{
+    background-color: violet;
+    border-radius: 5px;
+    margin: 0.5rem;
+    padding: 1rem;
+   
+   
+}
+
+article:hover {
+    background-color: rgb(6, 50, 133);
+}
+article:active{
+    background-color: rgb(65, 65, 175);
+}
+aside{
+    
+   
+    background-color: rgb(50, 88, 160);
+    width: 200px;
+    height: 229px;
+    position: absolute;
+    right: 30px;
+    bottom: 90px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 3rem;
+}
+#pertem{
+    background-color: rgb(39, 119, 151);
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-top: 40px;
+   
+}
+footer{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pertem:hover {
+    background-color: rgb(6, 60, 131);
+}
+#pertem:active{
+    background-color: rgb(65, 65, 158);
+}
